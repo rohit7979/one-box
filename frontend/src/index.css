@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/* Navbar */
+
+/* Home */
+.home-main-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.login-main-div {
+  width: 40vw;
+  height: auto;
+  padding: 24px 40px 40px 40px;
+  border-radius: 17px;
+  border: 1px;
+  background-color: linear-gradient(
+    138.97deg,
+    #111214 5.16%,
+    #121212 105.18%
+  ) !important;
+  border: 1px solid var(--Border-1, #343a40);
+  background-color: #111212 !important;
+}
+
+.logn-heading > p {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 31px;
+  text-align: center;
+}
+
+.signupwithgoogle {
+  width: 100%;
+  height: 7vh;
+  border: solid white 1px;
+  border-radius: 5px;
+}
+
+.google-signup-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 100%;
+  margin-bottom: 20px;
+  transition: background-color 0.2s ease;
+}
+
+.google-signup-btn:hover {
+  background-color: #f1f1f1;
+}
+
+.google-logo {
+  margin-right: 10px;
+}
+
+.google-signup-text {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.create-acc-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.create-acc-btn:hover {
+  background-color: #0056b3;
+}
+
+.already-acc {
+  text-align: center;
+}
+
+.createacc-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.createacc {
+  background-image: linear-gradient(
+    91.73deg,
+    #4b63dd -2.99%,
+    rgba(5, 36, 191, 0.99) 95.8%
+  );
+  padding: 10px;
+}
+
+.already-acc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.new-replies-number {
+  height: 26px; /* Fixed height */
+  width: 34px; /* Fixed width */
+  padding: 0; /* No padding */
+  background-color: #23272c; /* Background color */
+  border-radius: 15px; /* Rounded corners */
+  display: flex; /* Use flexbox */
+  align-items: center; /* Vertically center */
+  justify-content: center; /* Horizontally center */
+}
+
+.new-replies-value {
+  font-family: "Inter", sans-serif !important; /* Use Inter font */
+  font-size: 10px !important; /* Font size */
+  font-weight: 600 !important; /* Font weight */
+  color: #5c7cfa; /* Font color */
+  margin: 0; /* Remove default margin */
+  line-height: 1; /* Ensure the line-height does not affect centering */
+  text-align: center; /* Center text alignment */
+}
+
+.new-replies-label {
+  font-family: "Inter", sans-serif; /* Use Inter font */
+  font-size: 14px; /* Font size for label */
+  font-weight: 600; /* Font weight for label */
+  /* line-height: 20px;  */
+  color: #e6e6e6; /* Font color for label */
+}
+
+.divider-border {
+  border: 1px solid #33383f !important;
+}
+
+.incoming-message-box {
+  height: auto;
+}
+
+.email-name {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 10px;
+}
+
+.email-name > div:nth-of-type(1) {
+  height: 8px;
+  width: 8px;
+  border-radius: 100px;
+  background-color: #5c7cfa;
+}
+
+.email-name > div:nth-of-type(2) {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.incoming-message-text {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-left: 18px;
+  margin-top: 3px;
+}
+
+.intrest-campaign-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.intrest-campaign-btn > button {
+  font-family: Open Sans;
+  font-size: 10px;
+  font-weight: 600;
+  background-color: #23272c;
+  padding: 6px 20px;
+  border-radius: 15px;
+}
+
+.intrest-campaign-btn > button:nth-of-type(1) {
+  color: #57e0a6;
+}
+
+/* Create Message/Reply Message */
+.message-content-outer {
+  margin-top: 15px;
+}
+
+.message-content-outer > div {
+  height: auto;
+  border: 1px solid #343a40;
+  /* box-shadow: 0px 4px 8px 0px #ffffff14; */
+  background-color: #343a40;
+  border-radius: 4px;
+}
+
+.sender-details {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: start;
+  gap: 10px;
+  padding: 10px;
+}
+
+.mail-title {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19.07px;
+}
+
+.mail-from {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.71px;
+  color: #aeaeae;
+}
+
+.mail-to {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.71px;
+  text-align: left;
+  color: #aeaeae;
+}
+
+.sender-message-content {
+  padding: 10px;
+}
+.sender-message-content > pre {
+  text-wrap: wrap;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.07px;
+  letter-spacing: -0.02em;
+  color: #e1e0e0;
+}
+
+/* Load Details */
+.load-details-heading {
+  width: 268px;
+  height: 36px;
+  padding: 8px 12px 8px 12px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: start;
+  background-color: #23272c;
+}
+
+.load-details-heading > .load-details-headingText {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.load-details-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  width: 100%; /* Ensure full width for the flex container */
+}
+
+.load-details-label,
+.load-details-label-data {
+  flex: 1; /* Allow both elements to grow equally */
+  margin-right: 10px; /* Add spacing between the two */
+}
+
+.load-details-label:last-child,
+.load-details-label-data:last-child {
+  margin-right: 0; /* Remove right margin from the last item */
+}
+
+.load-details-label {
+  font-family: "Inter", sans-serif; /* Ensure the font-family is correct */
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.52px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.load-details-label-data {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.94px;
+  text-align: left;
+  color: #b9b9b9;
+  word-wrap: break-word; /* Ensure the text wraps correctly */
+  overflow-wrap: break-word; /* Additional property for wrapping */
+}
+
+.activities-compaign {
+  font-family: Open Sans !important;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  line-height: 20.43px !important;
+  color: #ffffff;
+}
+
+.activities-days {
+  font-family: Open Sans !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  line-height: 16.34px !important;
+  text-align: left !important;
+}
+
+.footer-main-div {
+  background-color: #121212;
+  border-top: 1px solid #25262b;
+  padding: 10px;
+}
+
+.text-content-footer {
+  font-family: Open Sans;
+  font-size: 20px !important;
+  font-weight: 400;
+  line-height: 18.6px;
+  color:#5C5F66
+}
